@@ -1,0 +1,33 @@
++>16:19:53 Starting AutoIt3Wrapper (21.316.1639.1) from:powershell.exe (10.0.26100.5074)  Keyboard:00000409  OS:WIN_11/2009  CPU:X64 OS:X64  Environment(Language:0409)
+>Running AU3Check (3.3.18.0)  from:C:\GenP-BuildEnv\AutoIt\install  input:C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\GenP\GenP-3.7.1.au3
++>16:19:54 AU3Check ended.rc:0
+>Running Au3Stripper (21.316.1639.0)  from:C:\GenP-BuildEnv\AutoIt\install\SciTe\Au3Stripper cmdline:
+- 2.33 Iteration 1 Strip Functions result: Output  11918 lines, stripped 18380 Func lines and 20541 Commentlines
+- 9.08 Iteration 2 Strip Variables result: Output  5593 lines and stripped 6325 lines
+- 9.78 Iteration 3 Strip Variables result: Output  5398 lines and stripped 195 lines
+- 10.44 Iteration 4 Strip Variables result: Output  5392 lines and stripped 6 lines
+- 11.09 Iteration 5 Strip Variables result: Output  5392 lines and stripped 0 lines
++> Source    51452 lines 2334234 Characters.
++> Stripped  24906 Func/Var lines and  20541 comment lines, Total 2123824 Characters.
++> Saved     88% lines 90% Characters.
++> Au3Stripper v21.316.1639.0 finished created:C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\GenP\GenP-3.7.1_stripped.au3
++>16:20:05 Au3Stripper ended.rc:0
+>Running AU3Check (3.3.18.0)  from:C:\GenP-BuildEnv\AutoIt\install  input:C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\GenP\GenP-3.7.1_stripped.au3
++>16:20:05 AU3Check ended.rc:0
+>Running:(3.3.18.0):C:\GenP-BuildEnv\AutoIt\install\aut2exe\aut2exe.exe  /in "C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\GenP\GenP-3.7.1_stripped.au3" /out "C:\Users\vikto\AppData\Local\AutoIt v3\Aut2exe\~AUF358.tmp.exe" /nopack /icon "C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\GenP\Skull.ico" /comp 2 /x64
++>16:20:06 Aut2exe.exe ended.C:\Users\vikto\AppData\Local\AutoIt v3\Aut2exe\~AUF358.tmp.exe. rc:0
+>16:20:06 Performing the Program Resource Update steps:
+...>Updating Program Version information.
+>16:20:06 Program Resource updating finished successfully.
+>Running:(3.91.0.0):C:\GenP-BuildEnv\AutoIt\install\aut2exe\upx.exe" --best --compress-icons=0 --keep-resource=10/SCRIPT "C:\Users\vikto\AppData\Local\AutoIt v3\Aut2exe\~AUF358.tmp.exe"
+                       Ultimate Packer for eXecutables
+                          Copyright (C) 1996 - 2013
+UPX 3.91w       Markus Oberhumer, Laszlo Molnar & John Reiser   Sep 30th 2013
+
+        File size         Ratio      Format      Name
+   --------------------   ------   -----------   -----------
+
+Packed 1 file: 0 ok, 1 error.
+->16:20:07 UPX Ended: rc:1
++>16:20:07 Created program:C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\GenP\GenP-v3.7.1.exe
++>16:20:07 AutoIt3Wrapper Finished.

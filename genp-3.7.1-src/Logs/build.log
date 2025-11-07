@@ -1,0 +1,54 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20251107161930
+Username: DESKTOP-2E8BFUD\vikto
+RunAs User: DESKTOP-2E8BFUD\vikto
+Configuration Name: 
+Machine: DESKTOP-2E8BFUD (Microsoft Windows NT 10.0.26100.0)
+Host Application: powershell.exe -ExecutionPolicy Bypass -File C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\build.ps1
+Process ID: 12556
+PSVersion: 5.1.26100.6899
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6899
+BuildVersion: 10.0.26100.6899
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Starting build process...
+The following components are missing and need to be downloaded:
+ - AutoIt Portable (~17MB)
+ - SciTE Portable (~7MB)
+Proceed with downloading these components? (y/n)
+
+Creating installation directory at C:\GenP-BuildEnv...
+
+Preparing UPX...
+ - Extracting zip: upx-5.0.1-win64.zip
+ - Found UPX directory: C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\UPX\upx-5.0.1-win64
+ - UPX copied to C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\GenP
+
+Patching wintrust.dll...
+ - Patched wintrust.dll and moved to C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\GenP
+
+Downloading AutoIt Portable...
+
+ - Extracting AutoIt Portable to C:\GenP-BuildEnv\AutoIt
+ - AutoIt extracted to C:\GenP-BuildEnv\AutoIt
+
+Downloading SciTE Portable...
+
+ - Extracting SciTE Portable to C:\GenP-BuildEnv\AutoIt\install\SciTE
+ - SciTE extracted to C:\GenP-BuildEnv\AutoIt\install\SciTE
+
+Building GenP...
+ - Selected .au3 file: C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\GenP\GenP-3.7.1.au3
+ - Building GenP-3.7.1.au3
+ - GenP executable built at C:\Users\vikto\Downloads\GenP_3.7.1_SOURCE-CGP\genp-3.7.1-src\Release\GenP-v3.7.1.exe
+
+Build process completed successfully!
+**********************
+Windows PowerShell transcript end
+End time: 20251107162007
+**********************
