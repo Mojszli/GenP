@@ -1,0 +1,48 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260323223416
+Username: DESKTOP-DDHH13E\az
+RunAs User: DESKTOP-DDHH13E\az
+Configuration Name: 
+Machine: DESKTOP-DDHH13E (Microsoft Windows NT 10.0.22631.0)
+Host Application: powershell.exe -ExecutionPolicy Bypass -File C:\Users\az\Downloads\GenP_4.0.0_SOURCE\GenP_4.0.0_SOURCE\genp-4.0.0-src\build.ps1
+Process ID: 14660
+PSVersion: 5.1.22621.6133
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.6133
+BuildVersion: 10.0.22621.6133
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Starting build process...
+ - upx.exe found in C:\Users\az\Downloads\GenP_4.0.0_SOURCE\GenP_4.0.0_SOURCE\genp-4.0.0-src\GenP\, skipped preparing UPX
+ - wintrust.dll found in C:\Users\az\Downloads\GenP_4.0.0_SOURCE\GenP_4.0.0_SOURCE\genp-4.0.0-src\GenP\, skipped patching WinTrust
+The following components are missing and need to be downloaded:
+ - AutoIt Portable (~17MB)
+ - SciTE Portable (~7MB)
+Proceed with downloading these components? (y/n)
+
+Creating installation directory at C:\GenP-BuildEnv...
+
+Downloading AutoIt Portable...
+
+ - Extracting AutoIt Portable to C:\GenP-BuildEnv\AutoIt
+ - AutoIt extracted to C:\GenP-BuildEnv\AutoIt
+
+Downloading SciTE Portable...
+
+ - Extracting SciTE Portable to C:\GenP-BuildEnv\AutoIt\install\SciTE
+ - SciTE extracted to C:\GenP-BuildEnv\AutoIt\install\SciTE
+
+Building GenP...
+ - Selected .au3 file: C:\Users\az\Downloads\GenP_4.0.0_SOURCE\GenP_4.0.0_SOURCE\genp-4.0.0-src\GenP\GenP-4.0.0.au3
+ - Building GenP-4.0.0.au3
+ - GenP executable built at C:\Users\az\Downloads\GenP_4.0.0_SOURCE\GenP_4.0.0_SOURCE\genp-4.0.0-src\Release\GenP-v4.0.0.exe
+
+Build process completed successfully!
+**********************
+Windows PowerShell transcript end
+End time: 20260323223521
+**********************

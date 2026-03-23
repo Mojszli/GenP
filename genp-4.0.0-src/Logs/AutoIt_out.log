@@ -1,0 +1,33 @@
++>22:35:04 Starting AutoIt3Wrapper (21.316.1639.1) from:powershell.exe (10.0.22621.3085)  Keyboard:00000409  OS:WIN_11/2009  CPU:X64 OS:X64  Environment(Language:0409)
+>Running AU3Check (3.3.18.0)  from:C:\GenP-BuildEnv\AutoIt\install  input:C:\Users\az\Downloads\GenP_4.0.0_SOURCE\GenP_4.0.0_SOURCE\genp-4.0.0-src\GenP\GenP-4.0.0.au3
++>22:35:06 AU3Check ended.rc:0
+>Running Au3Stripper (21.316.1639.0)  from:C:\GenP-BuildEnv\AutoIt\install\SciTe\Au3Stripper cmdline:
+- 2.41 Iteration 1 Strip Functions result: Output  12737 lines, stripped 18826 Func lines and 21353 Commentlines
+- 9.39 Iteration 2 Strip Variables result: Output  6149 lines and stripped 6588 lines
+- 10.09 Iteration 3 Strip Variables result: Output  5939 lines and stripped 210 lines
+- 10.75 Iteration 4 Strip Variables result: Output  5933 lines and stripped 6 lines
+- 11.41 Iteration 5 Strip Variables result: Output  5933 lines and stripped 0 lines
++> Source    53595 lines 2415406 Characters.
++> Stripped  25630 Func/Var lines and  21353 comment lines, Total 2185170 Characters.
++> Saved     87% lines 90% Characters.
++> Au3Stripper v21.316.1639.0 finished created:C:\Users\az\Downloads\GenP_4.0.0_SOURCE\GenP_4.0.0_SOURCE\genp-4.0.0-src\GenP\GenP-4.0.0_stripped.au3
++>22:35:18 Au3Stripper ended.rc:0
+>Running AU3Check (3.3.18.0)  from:C:\GenP-BuildEnv\AutoIt\install  input:C:\Users\az\Downloads\GenP_4.0.0_SOURCE\GenP_4.0.0_SOURCE\genp-4.0.0-src\GenP\GenP-4.0.0_stripped.au3
++>22:35:18 AU3Check ended.rc:0
+>Running:(3.3.18.0):C:\GenP-BuildEnv\AutoIt\install\aut2exe\aut2exe.exe  /in "C:\Users\az\Downloads\GenP_4.0.0_SOURCE\GenP_4.0.0_SOURCE\genp-4.0.0-src\GenP\GenP-4.0.0_stripped.au3" /out "C:\Users\az\AppData\Local\AutoIt v3\Aut2exe\~AU6A4C.tmp.exe" /nopack /icon "C:\Users\az\Downloads\GenP_4.0.0_SOURCE\GenP_4.0.0_SOURCE\genp-4.0.0-src\GenP\Skull.ico" /comp 2 /x64
++>22:35:19 Aut2exe.exe ended.C:\Users\az\AppData\Local\AutoIt v3\Aut2exe\~AU6A4C.tmp.exe. rc:0
+>22:35:19 Performing the Program Resource Update steps:
+...>Updating Program Version information.
+>22:35:19 Program Resource updating finished successfully.
+>Running:(3.91.0.0):C:\GenP-BuildEnv\AutoIt\install\aut2exe\upx.exe" --best --compress-icons=0 --keep-resource=10/SCRIPT "C:\Users\az\AppData\Local\AutoIt v3\Aut2exe\~AU6A4C.tmp.exe"
+                       Ultimate Packer for eXecutables
+                          Copyright (C) 1996 - 2013
+UPX 3.91w       Markus Oberhumer, Laszlo Molnar & John Reiser   Sep 30th 2013
+
+        File size         Ratio      Format      Name
+   --------------------   ------   -----------   -----------
+
+Packed 1 file: 0 ok, 1 error.
+->22:35:20 UPX Ended: rc:1
++>22:35:20 Created program:C:\Users\az\Downloads\GenP_4.0.0_SOURCE\GenP_4.0.0_SOURCE\genp-4.0.0-src\GenP\GenP-v4.0.0.exe
++>22:35:20 AutoIt3Wrapper Finished.
