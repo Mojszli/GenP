@@ -15,3 +15,5 @@ Do only ONE thing at a time
  • third, go back to genp and click "Search" again.  
  • fourth, click on the desired app and patch again.  
 And woala you have your free app!  
+
+# ⚠️ This does not work for newer apps since this is a reupload and im not the developer and they quit updating it so you can get the code and update it if you can but i probably wont be updating it⚠️
